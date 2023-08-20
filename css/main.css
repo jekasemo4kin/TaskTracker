@@ -1,0 +1,179 @@
+*, *::before, *::after {
+    box-sizing:border-box;    
+}
+
+html {
+height: 100%;
+}
+
+body {
+font-family: 'Manrope', sans-serif;
+margin: 0;
+height: 100%;
+}
+
+.main-page {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+img {
+display: block;
+}
+
+/*   HEADER   */
+
+.header {
+height: 73px;
+border-bottom: 1px solid #E5E9F2; 
+display: flex;
+align-items: center;
+}
+
+.header-container {
+width: 1110px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+}
+
+.logo {
+margin-right: 40px;
+}
+
+.nav {
+font-weight: bold;
+font-size: 14px;
+line-height: 1;
+color: #18191F;
+}
+
+.nav-link {
+color: #18191F;
+text-decoration: none;
+margin-right: 32px;
+}
+
+.nav-link:hover {
+color: #8C30F5;
+}
+
+.nav-link:last-child {
+margin-right: 0;
+}
+
+.appstore {
+margin-left: auto;
+display: flex;
+
+}
+
+.appstore-item {
+margin-left: 12px;
+}
+
+.appstore-item:first-child {
+margin-left: 0;
+}
+
+/*   MAIN   */
+
+.main {
+
+}
+
+.main-container {
+width: 1110px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 197px;
+padding-bottom: 197px;
+}
+
+.main-text {
+    margin-bottom: 32px;
+
+}
+
+.main-content {
+width: 540px;
+font-size: 18px;
+color: #18191F;
+}
+
+.main-text p {
+margin-bottom: 15px;
+margin: 0;
+font-size: 18px;
+line-height: 1.78;
+
+}
+
+.main-img {
+
+}
+
+.main-header {
+margin-bottom: 16px;
+margin-top: 0;
+font-weight: 800;
+font-size: 72px;
+line-height: 1.36;
+color: #18191F;
+font-feature-settings: "liga" 0;
+}
+
+.button {
+padding-left: 35px;
+padding-right: 35px;
+display: inline-block;
+height: 62px;
+background: #8C30F5;
+border-radius: 8px;
+
+font-weight: bold;
+font-size: 20px;
+line-height: 62px;
+color: #FFF;
+text-decoration: none;
+
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+/*   FOOTER   */
+
+.footer {
+display: flex;
+align-items: center;
+height: 72px;
+background-color: #0B0D17;    
+color: #D9DBE1;
+}
+
+.footer-container {
+width: 1110px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.footer-copyright {
+font-style: 14px;
+}
+
+
+.footer-socials {
+display:flex;
+
+}
+
+.footer-socials-item {
+margin-left: 16px;
+}
